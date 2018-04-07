@@ -1,0 +1,9 @@
+[Unit]
+Description=Remount the root filesystem
+
+[Service]
+ExecStart=/usr/bin/mount -o remount,rw,permissions,noatime
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
