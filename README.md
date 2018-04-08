@@ -17,6 +17,6 @@ Because:
  * what if you wanted a single filesystem
  * what if you ran out of filesystems to create (can happen on MBR pretty easy)
  * what if you don't like partitioning and are scared of messing up your data again
- * what if you like to perserve space
+ * what if you like to preserve space
  * makes it easier to access Linux files from Windows (because ext2fsd broke as fuck)
  * some other reason that I can't think of right now...
